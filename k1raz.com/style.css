@@ -1,0 +1,135 @@
+@import url(buttons.css);
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #293462;
+}
+
+.main-header {
+    background-color: #D61C4E;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.main-header-logo {
+    padding: 10px;
+    font-size: 45px;
+}
+
+.main-header-nav {
+    display: inline-block;
+    width: calc(100% - 185px);
+    text-align: right;
+}
+
+.main-header-nav-list {
+    list-style: none;
+}
+
+.main-header-nav-items {
+    display: inline-block;
+}
+
+.main-header-nav-items a {
+    margin: 0px 25px;
+    padding: 10px;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-1 {
+    float: left;
+    width: 100%;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+}
+
+.col-3 {
+    float: left;
+    width: 33.3%;
+}
+
+.kiraz-img {
+    background: url("kiraz.jpg");
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.info-kiraz {
+    text-align: center;
+    background-color: #D61C4E;
+    height: 50vh;
+    background-color: #fff;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+}
+
+.star-wars {
+    background: url("starwars.jpg");
+    height: 60vh;
+    background-size: contain;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.showcase {
+    background-color: #fff;
+    width: 30vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    border-radius: 10px;
+    color: #D61C4E;
+    opacity: 0.6;
+    box-shadow: 2px 4px rgba(234, 97, 134, 0.8);
+}
+
+.section-title {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card {
+    text-align: center;
+    background-color: #D61C4E;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px rgba(243, 165, 186, 0.3);
+    transition: all .8s;
+    top: 0;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-img {
+    height: 30vh;
+}
+
+.card-container {
+    padding: 10px;
+}
